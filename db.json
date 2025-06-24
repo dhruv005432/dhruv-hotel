@@ -1,0 +1,525 @@
+{
+  "rooms": [
+    {
+      "id": "1",
+      "name": "Standard Room 1",
+      "type": "Standard",
+      "price": 2500,
+      "description": "Cozy room with essential facilities and comfortable bedding.",
+      "image": "assets/rooms.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Deluxe Room 2",
+      "type": "Deluxe",
+      "price": 3000,
+      "description": "Spacious room with deluxe amenities and king bed.",
+      "image": "assets/Deluxe Room.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Suite Room 3",
+      "type": "Suite",
+      "price": 3500,
+      "description": "Elegant suite with living area, workspace, and premium facilities.",
+      "image": "assets/suite-3.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Twin Room 4",
+      "type": "Twin",
+      "price": 2800,
+      "description": "Twin bed setup ideal for friends or colleagues traveling together.",
+      "image": "assets/twin-4.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Budget Room 5",
+      "type": "Budget",
+      "price": 2000,
+      "description": "Affordable room with basic amenities and clean interiors.",
+      "image": "assets/budget-5.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Family Room 6",
+      "type": "Family",
+      "price": 4000,
+      "description": "Spacious family room with double beds and child-friendly facilities.",
+      "image": "assets/family-6.jpg"
+    },
+    {
+      "id": "7",
+      "name": "View Room 7",
+      "type": "View",
+      "price": 4200,
+      "description": "Room with a stunning view and large windows.",
+      "image": "assets/view.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Studio Room 8",
+      "type": "Studio",
+      "price": 3900,
+      "description": "Furnished studio with kitchenette and workspace.",
+      "image": "assets/studio-8.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Classic Room 9",
+      "type": "Classic",
+      "price": 4100,
+      "description": "Traditional decor with modern comfort and antique furnishings.",
+      "image": "assets/classic-9.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Eco Room 10",
+      "type": "Eco",
+      "price": 2700,
+      "description": "Eco-friendly room with energy-saving systems and greenery.",
+      "image": "assets/eco-10.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Business Room 11",
+      "type": "Business",
+      "price": 4500,
+      "description": "Room equipped with desk, fast internet and work-friendly design.",
+      "image": "assets/business-11.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Penthouse Room 12",
+      "type": "Penthouse",
+      "price": 8000,
+      "description": "Top-floor suite with skyline views and luxury bar.",
+      "image": "assets/penthouse-12.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Spa Room 13",
+      "type": "Spa",
+      "price": 7000,
+      "description": "Suite with in-room spa and wellness area.",
+      "image": "assets/spa-12.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Pet Room 14",
+      "type": "Pet",
+      "price": 3200,
+      "description": "Pet-friendly room with additional bedding and outdoor access.",
+      "image": "assets/pet-14.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Accessible Room 15",
+      "type": "Accessible",
+      "price": 3100,
+      "description": "Room designed for accessibility with modern support features.",
+      "image": "assets/accessible-15.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Deluxe Room 16",
+      "type": "Deluxe",
+      "price": 3400,
+      "description": "Upgraded deluxe room with elegant finishes and larger space.",
+      "image": "assets/deluxe-16.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Sea View Room 17",
+      "type": "View",
+      "price": 4600,
+      "description": "Spectacular sea view with private balcony.",
+      "image": "assets/sea-view-17.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Mountain View Room 18",
+      "type": "View",
+      "price": 4800,
+      "description": "Panoramic mountain views with wide glass windows.",
+      "image": "assets/mountain-view-18.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Couple Suite 19",
+      "type": "Suite",
+      "price": 5000,
+      "description": "Romantic suite perfect for couples with private jacuzzi.",
+      "image": "assets/couple-suite-19.jpg"
+    },
+    {
+      "id": "20",
+      "name": "Luxury Suite 20",
+      "type": "Suite",
+      "price": 6500,
+      "description": "Luxury suite with VIP services and private lounge.",
+      "image": "assets/luxury-20.jpg"
+    },
+    {
+      "id": "21",
+      "name": "Economy Room 21",
+      "type": "Budget",
+      "price": 2200,
+      "description": "Low-cost room with all essential amenities.",
+      "image": "assets/economy-21.jpg"
+    },
+    {
+      "id": "22",
+      "name": "Mini Suite 22",
+      "type": "Suite",
+      "price": 3700,
+      "description": "Compact suite ideal for short luxury stays.",
+      "image": "assets/mini-suite-22.jpg"
+    },
+    {
+      "id": "23",
+      "name": "Art Room 23",
+      "type": "Classic",
+      "price": 3900,
+      "description": "Artistically decorated room with colorful interiors.",
+      "image": "assets/art-room-23.jpg"
+    },
+    {
+      "id": "24",
+      "name": "Heritage Room 24",
+      "type": "Classic",
+      "price": 4300,
+      "description": "Vintage-inspired room with heritage furniture.",
+      "image": "assets/heritage-24.jpg"
+    },
+    {
+      "id": "25",
+      "name": "Skyline Room 25",
+      "type": "View",
+      "price": 4700,
+      "description": "Top floor room with breathtaking city skyline view.",
+      "image": "assets/skyline-25.jpg"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "guestName": "Riya Sharma",
+      "email": "riya@example.com",
+      "phone": "9876543210",
+      "checkIn": "2025-06-21",
+      "checkOut": "2025-06-24",
+      "roomType": "Deluxe",
+      "guestCount": 2,
+      "status": "Pending"
+    },
+    {
+      "id": "2",
+      "guestName": "Arjun Patel",
+      "email": "arjun@example.com",
+      "phone": "9998877665",
+      "checkIn": "2025-06-20",
+      "checkOut": "2025-06-23",
+      "roomType": "Suite",
+      "guestCount": 3,
+      "status": "Confirmed"
+    },
+    {
+      "id": "1750403182897",
+      "guestName": "Dhruv Dhameliya",
+      "email": "dhruvdhameliya357@gmail.com",
+      "phone": "78628 32972",
+      "checkIn": "2025-06-21",
+      "checkOut": "2025-06-25",
+      "roomType": "Deluxe",
+      "guestCount": 1,
+      "status": "Pending"
+    },
+    {
+      "id": "1750403292328",
+      "guestName": "kishor ambaliya",
+      "email": "kishorambaliya1233@gmail.com",
+      "phone": "78628 32972",
+      "checkIn": "2025-06-23",
+      "checkOut": "2025-06-29",
+      "roomType": "Suite",
+      "guestCount": 1,
+      "status": "Pending"
+    },
+    {
+      "id": "1750403335703",
+      "guestName": "khush Dhameliya ",
+      "email": "khushdhameliya236@gmail.com",
+      "phone": "1234567890",
+      "checkIn": "2025-06-24",
+      "checkOut": "2025-07-02",
+      "roomType": "Budget",
+      "guestCount": 15,
+      "status": "Pending"
+    },
+    {
+      "id": "1750403386279",
+      "guestName": "om dhameliya",
+      "email": "omdhameliya123@gmail.com",
+      "phone": "7855668899",
+      "checkIn": "2025-06-24",
+      "checkOut": "2025-07-05",
+      "roomType": "Luxury",
+      "guestCount": 1,
+      "status": "Pending"
+    },
+    {
+      "id": "1750403434905",
+      "guestName": "Abcd ",
+      "email": "abcd1233@gmail.com",
+      "phone": "1234567890",
+      "checkIn": "2025-06-23",
+      "checkOut": "2025-06-24",
+      "roomType": "Twin",
+      "guestCount": 1,
+      "status": "Pending"
+    },
+    {
+      "id": "1750403486664",
+      "guestName": "Abc",
+      "email": "Abc666@gmail.com",
+      "phone": "1472583690",
+      "checkIn": "2025-06-21",
+      "checkOut": "2025-06-24",
+      "roomType": "Family",
+      "guestCount": 5,
+      "status": "Pending"
+    },
+    {
+      "id": "1750403526937",
+      "guestName": "Rishi dhameliya",
+      "email": "Rishidhameliya357@gmail.com",
+      "phone": "1234567890",
+      "checkIn": "2025-06-27",
+      "checkOut": "2025-06-30",
+      "roomType": "View Room",
+      "guestCount": 1,
+      "status": "Pending"
+    },
+    {
+      "id": "1750403573956",
+      "guestName": "dev dhameliya ",
+      "email": "devdhameliya123@gmail.com",
+      "phone": "78628 32972",
+      "checkIn": "2025-06-23",
+      "checkOut": "2025-06-26",
+      "roomType": "Business",
+      "guestCount": 1,
+      "status": "Pending"
+    },
+    {
+      "id": "1750409128154",
+      "guestName": "harsh gadhiya",
+      "email": "harshgadhiya133@gmail.com",
+      "phone": "78628 32972",
+      "checkIn": "2025-06-21",
+      "checkOut": "2025-06-24",
+      "roomType": "Deluxe",
+      "guestCount": 1,
+      "status": "Pending"
+    },
+    {
+      "id": 1750661134885,
+      "guestName": "jay ",
+      "email": "jay1323@gmail.com",
+      "phone": "78628 32972",
+      "checkIn": "2025-06-25",
+      "checkOut": "2025-06-29",
+      "roomType": "Deluxe",
+      "guestCount": 1,
+      "status": "Pending"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@dhruvhotel.com",
+      "password": "admin123",
+      "role": "admin",
+      "name": "Admin User"
+    },
+    {
+      "id": "2",
+      "email": "guest@dhruvhotel.com",
+      "password": "guest123",
+      "role": "user",
+      "name": "Riya Guest"
+    },
+    {
+      "id": "1750409164724",
+      "fullName": "harsh gadhiya",
+      "email": "harshgadhiya133@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "1750409268613",
+      "fullName": "kishor ambaliya",
+      "email": "kishorambaliya1233@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Ravi Patel",
+      "rating": 5,
+      "feedback": "Excellent service and clean rooms!"
+    },
+    {
+      "id": "2",
+      "name": "Priya Shah",
+      "rating": 4,
+      "feedback": "Very comfortable stay!"
+    },
+    {
+      "id": "af9a",
+      "name": "Dhruv",
+      "rating": 5,
+      "message": "Amazing  your services",
+      "time": "19/06/2025, 15:35:45"
+    },
+    {
+      "id": "1086",
+      "name": "Abc",
+      "rating": 4,
+      "message": "Amazing your services",
+      "time": "19/06/2025, 16:13:13"
+    },
+    {
+      "id": "7542",
+      "name": "bhavin bhuva",
+      "rating": 5,
+      "message": "Amazing services and  food  is the  best ",
+      "time": "20/06/2025, 11:08:04"
+    },
+    {
+      "id": "79b5",
+      "name": "kishor ambaliya",
+      "rating": 5,
+      "message": "Amazing services and food is the best",
+      "time": "20/06/2025, 12:54:11"
+    },
+    {
+      "id": "8960",
+      "name": "jay ",
+      "rating": 5,
+      "message": "Amazing services and food is the best",
+      "time": "23/06/2025, 12:34:28"
+    }
+  ],
+  "newsletter": [
+    {
+      "id": "2340",
+      "email": "dhruvdhameliya357@gmail.com"
+    },
+    {
+      "id": "a72b",
+      "email": "kalpitgabani123@gmail.com"
+    },
+    {
+      "id": "212f",
+      "email": "khushdhameliya1234@gmail.com"
+    },
+    {
+      "id": "7bae",
+      "email": "omdhameliya123@gmail.com"
+    },
+    {
+      "id": "aa3a",
+      "email": "Dhameliyabrothers123@gmal.com"
+    },
+    {
+      "id": "471f",
+      "email": "rahul111@gmail.com"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "400d",
+      "name": "Dhruv Dhameliya",
+      "email": "dhruvdhameliya123@gmail.com",
+      "message": "Hello can you help"
+    },
+    {
+      "id": "db11",
+      "name": "Dhruv Dhameliya",
+      "email": "dhruvdhameliya123@gmail.com",
+      "message": "hello can you help"
+    }
+  ],
+  "about": {
+    "introduction": "Dhruv Hotel is a luxury hotel offering premium accommodation, service, and culinary experiences.",
+    "mission": "To provide exceptional hospitality that exceeds guest expectations.",
+    "vision": "To be the top hospitality brand known for innovation and quality.",
+    "history": [
+      "2010 - Founded in Gujarat",
+      "2013 - Expanded to 3 more cities",
+      "2016 - Added luxury suite floors",
+      "2020 - Awarded Best Customer Experience",
+      "2023 - Global guest service launch"
+    ],
+    "team": [
+      {
+        "name": "Dhruv Dhameliya",
+        "role": "Founder & CEO",
+        "education": "MBA Hospitality, IIM Bangalore",
+        "experience": "15+ years in hotel industry",
+        "icon": "fa-user-tie"
+      },
+      {
+        "name": "Neha Sharma",
+        "role": "Receptionist",
+        "education": "Diploma in Hospitality",
+        "experience": "6 years as front desk manager",
+        "icon": "fa-user"
+      },
+      {
+        "name": "Raj Mehta",
+        "role": "Accountant",
+        "education": "M.Com, CA Finalist",
+        "experience": "8 years in accounts & finance",
+        "icon": "fa-calculator"
+      },
+      {
+        "name": "Simran Kaur",
+        "role": "Team Leader",
+        "education": "BBA + HR Certification",
+        "experience": "5 years team leadership",
+        "icon": "fa-users"
+      },
+      {
+        "name": "Harsh Patel",
+        "role": "Co-Leader",
+        "education": "Hotel Management Degree",
+        "experience": "3 years in ops team",
+        "icon": "fa-people-group"
+      },
+      {
+        "name": "Tanvi Desai",
+        "role": "Customer Service Manager",
+        "education": "MBA - Marketing",
+        "experience": "9 years in client experience",
+        "icon": "fa-headset"
+      },
+      {
+        "name": "Chef Manish",
+        "role": "Head Chef",
+        "education": "Le Cordon Bleu Paris",
+        "experience": "10+ years fine dining",
+        "icon": "fa-utensils"
+      },
+      {
+        "name": "Support Team",
+        "role": "Hotel Staff",
+        "education": "Certified Housekeeping",
+        "experience": "Various experience levels",
+        "icon": "fa-user"
+      }
+    ]
+  }
+}
