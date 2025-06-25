@@ -1,0 +1,55 @@
+/* Linear Gradient Background with 3D effect */
+.navbar {
+  background: linear-gradient(135deg, #5a8dee, #2d57b3);
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0 0 15px 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Brand Title Centered */
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+/* Menu Line - Pages Below Title */
+.navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Each nav link */
+.nav-link {
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ffd700;
+}
+
+/* Font Awesome icons spacing */
+.nav-link i {
+  margin-right: 5px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

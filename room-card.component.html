@@ -1,0 +1,10 @@
+<div class="room-card">
+  <img [src]="room.image" alt="{{ room.name }}" class="room-img" />
+
+  <div class="room-info">
+    <h5><i class="fas fa-bed me-2"></i>{{ room.name }}</h5>
+    <p class="price"><i class="fas fa-rupee-sign me-1"></i>{{ room.price }} / night</p>
+    <p class="desc">{{ room.description }}</p>
+    <button class="btn btn-warning w-100" routerLink="/booking">Book Now</button>
+  </div>
+</div>

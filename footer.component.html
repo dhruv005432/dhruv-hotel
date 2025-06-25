@@ -1,0 +1,41 @@
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h2><i class="fas fa-hotel"></i> Dhruv Hotel</h2>
+      <p><i class="fas fa-map-marker-alt"></i> Iscon Road, Rajkot, Gujarat</p>
+      <p><i class="fas fa-phone"></i> +91 7862832972</p>
+      <p><i class="fas fa-envelope"></i> support&#64;dhruvhotel.com</p>
+    </div>
+
+    <div class="footer-section">
+      <h3><i class="fas fa-link"></i> Navigation</h3>
+      <ul>
+        <li><i class="fas fa-home"></i> <a routerLink="/home">Home</a></li>
+        <li><i class="fas fa-bed"></i> <a routerLink="/rooms">Rooms</a></li>
+        <li><i class="fas fa-door-open"></i> <a routerLink="/room-detail">Room Detail</a></li>
+        <li><i class="fas fa-calendar-check"></i> <a routerLink="/booking">Booking</a></li>
+        <li><i class="fas fa-info-circle"></i> <a routerLink="/about">About</a></li>
+        <li><i class="fas fa-phone"></i> <a routerLink="/contact">Contact</a></li>
+        <li><i class="fas fa-sign-in-alt"></i> <a routerLink="/login">Login</a></li>
+        <li><i class="fas fa-user-plus"></i> <a routerLink="/register">Register</a></li>
+        <li><i class="fas fa-user-circle"></i> <a routerLink="/profile">Profile</a></li>
+        <li><i class="fas fa-comments"></i> <a routerLink="/testimonials">Testimonials</a></li>
+        <li><i class="fas fa-user-shield"></i> <a routerLink="/admin">Admin</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3><i class="fas fa-share-alt"></i> Social</h3>
+      <div class="social-icons">
+        <i class="fab fa-facebook" (click)="window.open('https://facebook.com', '_blank')"></i>
+        <i class="fab fa-instagram" (click)="window.open('https://instagram.com/dhruv_0591', '_blank')"></i>
+        <i class="fab fa-whatsapp" (click)="window.open('https://wa.me/917862832972', '_blank')"></i>
+        <i class="fas fa-envelope" (click)="window.open('mailto:support@dhruvhotel.com')"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; {{ year }} Dhruv Hotel. All rights reserved.</p>
+  </div>
+</footer>
