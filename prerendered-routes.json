@@ -1,0 +1,17 @@
+{
+  "routes": [
+    "/about",
+    "/admin",
+    "/admin/manage-bookings",
+    "/admin/manage-rooms",
+    "/admin/manage-users",
+    "/booking",
+    "/contact",
+    "/home",
+    "/login",
+    "/profile",
+    "/register",
+    "/rooms",
+    "/testimonials"
+  ]
+}
