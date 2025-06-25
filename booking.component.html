@@ -1,0 +1,54 @@
+<div class="booking-container">
+  <h2><i class="fas fa-hotel"></i> Book Your Stay at Dhruv-Hotel</h2>
+
+  <form (ngSubmit)="submitBooking()">
+    <div class="form-group">
+      <label><i class="fas fa-user"></i> Full Name</label>
+      <input type="text" [(ngModel)]="booking.guestName" name="guestName" required />
+    </div>
+
+    <div class="form-group">
+      <label><i class="fas fa-envelope"></i> Email</label>
+      <input type="email" [(ngModel)]="booking.email" name="email" required />
+    </div>
+
+    <div class="form-group">
+      <label><i class="fas fa-phone"></i> Phone</label>
+      <input type="tel" [(ngModel)]="booking.phone" name="phone" required />
+    </div>
+
+    <div class="form-group">
+      <label><i class="fas fa-calendar-days"></i> Check-In Date</label>
+      <input type="date" [(ngModel)]="booking.checkIn" name="checkIn" required />
+    </div>
+
+    <div class="form-group">
+      <label><i class="fas fa-calendar-days"></i> Check-Out Date</label>
+      <input type="date" [(ngModel)]="booking.checkOut" name="checkOut" required />
+    </div>
+
+    <div class="form-group">
+      <label><i class="fas fa-bed"></i> Room Type</label>
+      <select [(ngModel)]="booking.roomType" name="roomType" required>
+        <option value="">-- Select Room Type --</option>
+        <option>Deluxe</option>
+        <option>Suite</option>
+        <option>Budget</option>
+        <option>Luxury</option>
+        <option>Twin</option>
+        <option>Family </option>
+        <option> View Room</option>
+        <option>Business</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label><i class="fas fa-users"></i> Guest Count</label>
+      <input type="number" min="1" [(ngModel)]="booking.guestCount" name="guestCount" required />
+    </div>
+
+    <button type="submit">
+      <i class="fas fa-check-circle"></i> Confirm Booking
+    </button>
+  </form>
+</div>

@@ -1,0 +1,54 @@
+<!-- Hero Banner -->
+<section class="hero">
+   <h1> <i class="fas fa-hotel me-2"></i> Welcome to Dhruv Hotel</h1>
+  <p>Luxury, comfort, and class redefined.</p>
+  <button (click)="bookNow()"><i class="fas fa-calendar-check"></i> Book Now</button>
+</section>
+
+<!-- Room Categories -->
+<section class="categories">
+  <h2><i class="fas fa-bed"></i> Room Categories</h2>
+  <div class="category-grid">
+    <div class="cat"><i class="fas fa-bed"></i><br />Deluxe</div>
+    <div class="cat"><i class="fas fa-bed"></i><br />Suite</div>
+    <div class="cat"><i class="fas fa-tags"></i><br />Budget</div>
+    <div class="cat"><i class="fas fa-tags"></i><br />Family</div>
+    <div class="cat"><i class="fas fa-tags"></i><br />Luxury</div>
+    <div class="cat"><i class="fas fa-tags"></i><br />Business</div>
+
+
+  </div>
+</section>
+
+<!-- Featured Rooms -->
+<section class="featured">
+  <h2><i class="fas fa-star"></i> Featured Rooms</h2>
+  <div class="room-cards">
+    <div class="room" *ngFor="let room of rooms">
+      <img [src]="room.image" alt="room" />
+      <h3>{{ room.name }}</h3>
+      <p>Type: {{ room.type }}</p>
+      <p>₹{{ room.price }}</p>
+      <button (click)="bookNow()"><i class="fas fa-cart-plus"></i> Book Now</button>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials">
+  <h2><i class="fas fa-star"></i> Guest Testimonials</h2>
+  <div class="testimonial" *ngFor="let t of testimonials">
+    <h4>{{ t.name }}</h4>
+    <p><i class="fas fa-star"></i> {{ t.rating }}/5</p>
+    <p>"{{ t.feedback }}"</p>
+  </div>
+</section>
+
+<!-- Newsletter Signup -->
+<section class="newsletter">
+  <h2><i class="fas fa-envelope"></i> Stay Updated</h2>
+  <input type="email" [(ngModel)]="newsletterEmail" placeholder="Enter email" />
+  <button (click)="subscribeNewsletter()">Subscribe</button>
+</section>
+
+

@@ -1,0 +1,37 @@
+<!-- Contact Form -->
+<section class="contact-form">
+  <h2><i class="fas fa-paper-plane"></i> Contact Us</h2>
+  <form (ngSubmit)="submitForm()">
+    <input type="text" name="name" [(ngModel)]="contact.name" placeholder="Your Name" required />
+    <input type="email" name="email" [(ngModel)]="contact.email" placeholder="Your Email" required />
+    <textarea name="message" [(ngModel)]="contact.message" placeholder="Your Message" required></textarea>
+    <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+  </form>
+</section>
+
+<!-- Google Map -->
+<section class="map">
+  <iframe
+    width="100%"
+    height="300"
+    frameborder="0"
+    style="border:0"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.25417507161!2d72.50645031538714!3d23.034023621202985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f88c273fd3%3A0x7df295c24d409fa1!2sAhmedabad!5e0!3m2!1sen!2sin!4v1592823650830!5m2!1sen!2sin"
+    allowfullscreen
+  ></iframe>
+</section>
+
+<!-- Contact Info -->
+<section class="info">
+  <h3>Contact Information</h3>
+  <p><strong>Address:</strong> Iscon Road, Rajkot, Gujarat</p>
+  <p><strong>Phone:</strong> +91 7862832972</p>
+  <p><strong>Email:</strong> support&#64;dhruvhotel.com</p>
+  <p><strong>Office Hours:</strong> Mon - Sat | 9:00 AM - 6:00 PM</p>
+
+  <div class="social-icons">
+    <i class="fab fa-facebook" (click)="goTo('facebook')"></i>
+    <i class="fab fa-instagram" (click)="goTo('instagram')"></i>
+    <i class="fab fa-whatsapp" (click)="goTo('whatsapp')"></i>
+  </div>
+</section>
