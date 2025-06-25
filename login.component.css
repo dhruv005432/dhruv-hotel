@@ -1,0 +1,74 @@
+.login-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 15px;
+  background: linear-gradient(to right, #5a8dee, #2d57b3);
+  color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.input-group label {
+  color: #2d57b3;
+  margin-right: 0.5rem;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 1rem;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 0.7rem;
+  font-weight: bold;
+  border: none;
+  background: #fbc531;
+  color: #222;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: #e1a400;
+}
+
+.social-login {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.social-login button {
+  margin: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.google {
+  background: #db4437;
+  color: white;
+}
+
+.facebook {
+  background: #3b5998;
+  color: white;
+}

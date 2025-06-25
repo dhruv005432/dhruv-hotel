@@ -1,0 +1,84 @@
+.profile-box {
+  max-width: 500px;
+  margin: auto;
+  background: linear-gradient(to right, #5a8dee, #2d57b3);
+  padding: 2rem;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.image-box {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.image-box img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+input[type="file"] {
+  margin-top: 0.5rem;
+  background: #fff;
+  color: #000;
+  padding: 0.3rem;
+  border-radius: 8px;
+}
+
+form input {
+  width: 100%;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+form button {
+  width: 100%;
+  padding: 0.8rem;
+  background: #fbc531;
+  color: #222;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+ul {
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  background: rgba(255,255,255,0.1);
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.logout {
+  background: #3b5998;
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.delete {
+  background: #d9534f;
+  margin-top: 0.5rem;
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

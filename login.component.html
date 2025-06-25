@@ -1,0 +1,27 @@
+<div class="login-container">
+  <h2><i class="fas fa-sign-in-alt"></i> Login - Dhruv Hotel</h2>
+
+  <form (ngSubmit)="login()">
+    <div class="input-group">
+      <label><i class="fas fa-envelope"></i></label>
+      <input type="email" placeholder="Email" [(ngModel)]="email" name="email" required />
+    </div>
+
+    <div class="input-group">
+      <label><i class="fas fa-key"></i></label>
+      <input type="password" placeholder="Password" [(ngModel)]="password" name="password" required />
+    </div>
+
+    <button type="submit"><i class="fas fa-unlock"></i> Login</button>
+  </form>
+
+  <div class="social-login">
+    <p>Or login with:</p>
+    <button class="google" (click)="socialLogin('Google')">
+      <i class="fab fa-google"></i> Google
+    </button>
+    <button class="facebook" (click)="socialLogin('Facebook')">
+      <i class="fab fa-facebook-f"></i> Facebook
+    </button>
+  </div>
+</div>

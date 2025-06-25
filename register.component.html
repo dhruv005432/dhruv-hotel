@@ -1,0 +1,27 @@
+<div class="register-box">
+  <h2><i class="fas fa-user-plus"></i> Register - Dhruv Hotel</h2>
+
+  <form (ngSubmit)="register()">
+    <div class="input-group">
+      <label><i class="fas fa-user"></i></label>
+      <input type="text" placeholder="Full Name" [(ngModel)]="fullName" name="fullName" required />
+    </div>
+
+    <div class="input-group">
+      <label><i class="fas fa-envelope"></i></label>
+      <input type="email" placeholder="Email" [(ngModel)]="email" name="email" required />
+    </div>
+
+    <div class="input-group">
+      <label><i class="fas fa-lock"></i></label>
+      <input type="password" placeholder="Password" [(ngModel)]="password" name="password" required />
+    </div>
+
+    <div class="input-group">
+      <label><i class="fas fa-lock"></i></label>
+      <input type="password" placeholder="Confirm Password" [(ngModel)]="confirmPassword" name="confirmPassword" required />
+    </div>
+
+    <button type="submit"><i class="fas fa-user-plus"></i> Register</button>
+  </form>
+</div>

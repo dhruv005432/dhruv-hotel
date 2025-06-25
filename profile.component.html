@@ -1,0 +1,30 @@
+<div class="profile-box">
+  <h2><i class="fas fa-user"></i> My Profile</h2>
+
+  <div class="image-box">
+    <img [src]="user.profilePic || 'https://via.placeholder.com/100'" alt="Profile Pic" />
+    <input type="file" (change)="onFileChange($event)" />
+  </div>
+
+  <form (ngSubmit)="updateProfile()">
+    <input type="text" [(ngModel)]="user.fullName" name="name" placeholder="Full Name" />
+    <input type="email" [(ngModel)]="user.email" name="email" placeholder="Email" />
+    <input type="text" [(ngModel)]="user.address" name="address" placeholder="Address" />
+    <button type="submit"><i class="fas fa-save"></i> Update Profile</button>
+  </form>
+
+  <h3><i class="fas fa-calendar-alt"></i> My Bookings</h3>
+  <ul>
+    <li *ngFor="let b of bookings">
+      {{ b.roomType }} | {{ b.checkIn }} → {{ b.checkOut }}
+    </li>
+  </ul>
+
+  <button class="logout" (click)="logout()">
+    <i class="fas fa-sign-out-alt"></i> Logout
+  </button>
+
+  <button class="delete" (click)="deleteProfile()">
+    <i class="fas fa-trash"></i> Delete Profile
+  </button>
+</div>
