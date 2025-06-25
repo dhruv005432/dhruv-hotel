@@ -1,0 +1,32 @@
+<div class="rooms-wrapper">
+  <h2><i class="fas fa-bed"></i> Dhruv Hotel Rooms</h2>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button *ngFor="let type of ['All', 'Deluxe', 'Suite', 'Budget','Twin','Family','View','Business' , ]"
+            (click)="onTabClick(type)"
+            [class.active]="type === selectedType">
+      <i class="fas fa-filter"></i> {{ type }}
+    </button>
+  </div>
+
+  <!-- Search -->
+  <div class="filters">
+    <input type="text" [(ngModel)]="search" (input)="onSearchChange()" placeholder="Search room name..." />
+    <input type="number" [(ngModel)]="maxPrice" (input)="applyFilters()" placeholder="Max Price" />
+  </div>
+
+  <!-- Room Cards -->
+  <div class="room-grid">
+    <div class="card" *ngFor="let room of filteredRooms">
+      <img [src]="room.image" alt="{{room.name}}">
+      <h4>{{ room.name }}</h4>
+      <p><strong>{{ room.type }}</strong> • ₹{{ room.price }}</p>
+      <p>{{ room.description }}</p>
+      <button (click)="onBook(room)">
+        <i class="fas fa-cart-plus"></i> Book Now
+      </button>
+
+    </div>
+  </div>
+</div>

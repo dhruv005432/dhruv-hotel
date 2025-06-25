@@ -1,0 +1,46 @@
+.admin-dashboard {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(to right, #5a8dee, #2d57b3);
+  color: white;
+  border-radius: 15px;
+  margin: 2rem;
+}
+
+.admin-dashboard h2 {
+  margin-bottom: 2rem;
+}
+
+.admin-panels {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.panel {
+  background: white;
+  color: #2d57b3;
+  padding: 1.5rem;
+  border-radius: 15px;
+  width: 220px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.panel:hover {
+  transform: translateY(-5px);
+}
+
+.panel i {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #5a8dee;
+}
+
+.panel h3 {
+  font-size: 1.1rem;
+  margin: 0;
+}

@@ -1,0 +1,37 @@
+<h2><i class="fas fa-calendar-check"></i> Manage Bookings</h2>
+
+<form (ngSubmit)="submit()" class="form">
+  <input type="text" [(ngModel)]="selectedBooking.guestName" name="guestName" placeholder="Guest Name" required />
+  <input type="email" [(ngModel)]="selectedBooking.email" name="email" placeholder="Email" required />
+  <input type="tel" [(ngModel)]="selectedBooking.phone" name="phone" placeholder="Phone" />
+  <input type="date" [(ngModel)]="selectedBooking.checkIn" name="checkIn" />
+  <input type="date" [(ngModel)]="selectedBooking.checkOut" name="checkOut" />
+  <input type="text" [(ngModel)]="selectedBooking.roomType" name="roomType" placeholder="Room Type" />
+  <input type="number" [(ngModel)]="selectedBooking.guestCount" name="guestCount" min="1" />
+  <select [(ngModel)]="selectedBooking.status" name="status">
+    <option>Pending</option>
+    <option>Confirmed</option>
+    <option>Cancelled</option>
+  </select>
+  <button type="submit">
+    <i class="fas fa-save"></i> {{ isEditMode ? 'Update' : 'Add' }} Booking
+  </button>
+  <button *ngIf="isEditMode" (click)="cancelEdit()" type="button">Cancel</button>
+</form>
+
+<hr>
+
+<div class="booking-list">
+  <div class="card" *ngFor="let booking of bookings">
+    <h4><i class="fas fa-user"></i> {{ booking.guestName }}</h4>
+    <p><strong>Email:</strong> {{ booking.email }}</p>
+    <p><strong>Phone:</strong> {{ booking.phone }}</p>
+    <p><strong>Check-in:</strong> {{ booking.checkIn }}</p>
+    <p><strong>Check-out:</strong> {{ booking.checkOut }}</p>
+    <p><strong>Room:</strong> {{ booking.roomType }}</p>
+    <p><strong>Guests:</strong> {{ booking.guestCount }}</p>
+    <p><strong>Status:</strong> {{ booking.status }}</p>
+    <button (click)="edit(booking)"><i class="fas fa-edit"></i> Edit</button>
+    <button (click)="delete(booking.id)"><i class="fas fa-times-circle"></i> Delete</button>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+<h3><i class="fas fa-tools"></i> Manage Rooms</h3>
+
+<form>
+  <input [(ngModel)]="currentRoom.name" name="name" placeholder="Room Name">
+  <input [(ngModel)]="currentRoom.type" name="type" placeholder="Room Type">
+  <input type="number" [(ngModel)]="currentRoom.price" name="price" placeholder="Price">
+  <input [(ngModel)]="currentRoom.image" name="image" placeholder="Image URL">
+  <textarea [(ngModel)]="currentRoom.description" name="description" placeholder="Description"></textarea>
+
+  <button type="button" (click)="saveRoom()">
+    {{ editMode ? 'Update' : 'Add' }} Room
+  </button>
+</form>
+
+<hr>
+
+<div *ngFor="let room of rooms" class="room-card">
+  <img [src]="room.image" width="100%">
+  <h4>{{ room.name }} - ₹{{ room.price }}</h4>
+  <p>{{ room.type }} - {{ room.description }}</p>
+  <button (click)="editRoom(room)"><i class="fas fa-edit"></i> Edit</button>
+  <button (click)="deleteRoom(room.id)"><i class="fas fa-trash"></i> Delete</button>
+</div>
