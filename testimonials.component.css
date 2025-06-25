@@ -1,0 +1,61 @@
+.testimonial-container {
+  padding: 2rem;
+  background: linear-gradient(to right, #5a8dee, #2d57b3);
+  color: white;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+.review-card {
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 600px;
+}
+
+.review-card .stars i {
+  color: gold;
+}
+
+.add-review {
+  background: rgba(255,255,255,0.2);
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.add-review input,
+.add-review textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: none;
+  margin: 0.5rem 0;
+}
+
+.star-select i {
+  font-size: 1.3rem;
+  margin-right: 5px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.star-select i.active {
+  color: #ffc107;
+}
+
+button {
+  background: #ffeb3b;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
