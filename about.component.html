@@ -1,0 +1,40 @@
+<div class="about-container">
+  <h2><i class="fas fa-hotel"></i> About Dhruv Hotel</h2>
+
+  <!-- Introduction -->
+  <p>{{ introduction }}</p>
+
+  <!-- Mission & Vision Flip Cards -->
+  <div class="flip-cards">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">Mission</div>
+        <div class="flip-card-back">{{ mission }}</div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">Vision</div>
+        <div class="flip-card-back">{{ vision }}</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- History Timeline -->
+  <h3><i class="fas fa-clock"></i> Timeline</h3>
+  <ul class="timeline">
+    <li *ngFor="let h of history">{{ h }}</li>
+  </ul>
+
+  <!-- Team Section -->
+  <h3><i class="fas fa-users"></i> Leadership Team</h3>
+  <div class="team-container">
+    <div class="team-card" *ngFor="let member of team">
+      <i class="fas" [ngClass]="member.icon"></i>
+      <h4>{{ member.role }}</h4>
+      <p><strong>{{ member.name }}</strong></p>
+      <p>🎓 {{ member.education }}</p>
+      <p>🧳 {{ member.experience }}</p>
+    </div>
+  </div>
+</div>
